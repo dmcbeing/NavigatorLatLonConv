@@ -15,8 +15,8 @@ def coordToDeg(coords):
 def degToMilliArc(degs):
 	return int(3600000*degs)
 
-lon = coordToDeg(readCoordinate("Longitude:"))
 lat = coordToDeg(readCoordinate("Latitude:"))
+lon = coordToDeg(readCoordinate("Longitude:"))
 print("-= Degress =-")
 print("Latitude : ",lat)
 print("Longitude: ",lon)
