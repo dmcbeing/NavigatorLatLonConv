@@ -4,13 +4,16 @@ A simple python script for converting coordinates to the format expected by MapF
 ## Usage
 
 Simply ran the scrip as any other python script.
-In linux you can also execute 'chmod +x the NavigatorLatLonConv.pu' after which you can run it like a normal executable:
+In linux you might have to execute 'chmod +x the NavigatorLatLonConv.pu' to be able to execute it:
 './NavigatorLatLonConv.py'
 
 You will be asked to enter the Latitude and Longittude of the place you are interested in.
 You can enter coordinates in two formats:
 - Decimal Degrees (eg 35.45172)
 - Degrees minutes seconds (eg 35:27:06.2)
+
+If using Google Maps after you locate your point of interest, you can right click and press 'What is here', a widow will appear with the Latitude and 
+Longittude of the point of interest.
 
 The program will return the coordinates in the following formats:
 - Decimal Degrees
